@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="append_to_disp('*')" class="operation">*</button>
+            <button onclick="append_to_disp('7')">7</button>
+            <button onclick="append_to_disp('8')">8</button>
+            <button onclick="append_to_disp('9')">9</button>
+            <button onclick="append_to_disp('/')"class="operation">/</button>
+            <button onclick="append_to_disp('4')">4</button>
+            <button onclick="append_to_disp('5')">5</button>
+            <button onclick="append_to_disp('6')">6</button>
+            <button onclick="append_to_disp('-')"class="operation">-</button>
+            <button onclick="append_to_disp('1')">1</button>
+            <button onclick="append_to_disp('2')">2</button>
+            <button onclick="append_to_disp('3')">3</button>
+            <button onclick="append_to_disp('+')"class="operation">+</button>
+            <button onclick="append_to_disp('0')">0</button>
+            <button onclick="append_to_disp('.')">.</button>
+            <button onclick="calculate()"class="operation">=</button>
+            <button onclick="clr_scr()"class="operation">c</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
